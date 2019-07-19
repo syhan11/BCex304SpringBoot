@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+
+<head>
+    <div th:insert="baseFrags :: headerFrag"></div>
+    <title>Home</title>
+</head>
+
+
+<body>
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to the AutoWorld!</h1><br/>
+    <div th:insert="~{baseFrags :: navFrag}"></div>
+</div>
+<div class="card" style="width: 50%; alignment: center">
+
+    <img class="card-img-top"
+         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMaMgVFGolmrMjcIu-0pgUCrqtZQVx-u42y9lIBwIiQvf78y4PQQ"
+         alt="car image">
+</div>
+
+<div th:insert="~{baseFrags :: footerFrag}"></div>
+<div th:insert="~{baseFrags :: scriptFrag}"></div>
+</body>
+</html>

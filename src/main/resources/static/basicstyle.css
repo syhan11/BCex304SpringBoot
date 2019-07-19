@@ -1,0 +1,18 @@
+.footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.jumbotron {
+    text-align: center;
+
+}
+
+.carimage {
+    alignment: center;
+
+}
